@@ -27,7 +27,8 @@ h3.fadeIn,
     color: palegreen;
 }
 
-#account-bar {
+#account-bar,
+#swal2-html-container {
     color: white;
 }
 
@@ -72,6 +73,12 @@ a:hover,
 .powered-by__ydftk {
     color: pink;
     font-size: 12px;
+}
+
+/* Text between ** is now in italic and not bold */
+.message-bubble__puzVZ strong {
+    font-style: italic;
+    font-weight: normal;
 }
 
 /* Rouded corners for images */
