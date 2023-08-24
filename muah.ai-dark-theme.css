@@ -1,0 +1,139 @@
+@-moz-document domain("muah.ai") {
+/* === Credits ===
+Created by  BreatFR
+Creatied on 2023/08/23
+Changelog   https://www.reddit.com/r/NomiAI/comments/15n7rgr/a_dark_theme_make_by_me/
+Website     https://breat.fr
+facebook    https://www.facebook.com/breatfroff
+mastodon    https://mastodon.social/@breat_fr
+telegram    https://t.me/+5ZLC2qntf6xmYmI0
+vk          https://vk.com/breatfroff
+X (twitter) https://x.com/breatfroff
+=== Credits === */
+
+/* Background and text color */
+select,
+.swal2-container.swal2-center.swal2-grow-fullscreen.borderless-container.swal2-backdrop-show div,
+.contact div,
+.screen__inner__NZe6j {
+    background-color: rgb(9, 16, 29);
+    color: white;
+}
+
+.form-messages.success {
+    background-color: rgb(9, 16, 29);
+    color: palegreen;
+}
+
+/* Heart background */
+.message-list__bHgr6 {
+    background: url(https://i.ibb.co/fYQkYyc/heart-pattern.png) fixed 100%;
+    background-color: rgb(9, 16, 29);
+}
+
+div.swal2-container.swal2-center.swal2-backdrop-show > div {
+    background-color: rgb(9, 16, 29);
+}
+
+/* Dark emoji popup */
+section.emoji-mart div > :last-child,
+.emoji-mart-light,
+.emoji-mart-bar {
+    background-color: rgb(9, 16, 29);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Bigger and white text in bubbles */
+.message-list__bHgr6 div {
+    color: white;
+    font-size: 20px;
+}
+
+/* New color for link to be more visible */
+a,
+.footer__options__8RNsw:hover {
+    color: skyblue;
+}
+
+/* Change color of text in the bottom of chat and put him little bigger */
+.footer__options__8RNsw,
+.powered-by__ydftk {
+    color: pink;
+    font-size: 12px;
+}
+
+/* Rouded corners for images */
+img {
+    border-radius: 10px;
+}
+
+/* Chat popup now take 100% screen size */
+.screen__POUUM {
+    padding:  0px !important;
+}
+
+.screen__inner__NZe6j {
+    margin-bottom: 0px !important;
+}
+
+/* Hide big button at the bottom */
+.button__rX4Lp {
+    display: none;
+}
+
+/* Remove borders on input items */
+input {
+    border: 0px !important;
+}
+
+/* Bigger avatars */
+.avatar__zfL8P {
+    height: 50px;
+    width: 50px;
+}
+
+/* Dark emoji popup */
+.image-attachment__inner__yGCaU:hover {
+    margin-left: 80% !important;
+    transform: scale(2.5);
+    transition: transform 0.3s;
+}
+
+/* Change background color of bubbles */
+/* AI bubbles */
+.message-bubble__puzVZ {
+    background: linear-gradient(to right, #cc2b5e, #753a88) !important;
+    max-width: 150vh
+}
+
+/* Our bubbles */
+div.message-bubble__puzVZ.message-bubble--nude__8qt2J {
+    background: transparent !important;
+}
+
+/* Make placeholder more visible in textarea */
+.composer__input__d6OQi:before {
+    color: rgb(9, 16, 29) !important;
+}
+
+/* Thin pink scrollbars */
+::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey !important;
+  border-radius: 20px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: pink !important;
+  border-radius: 20px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white !important;
+}
+}
