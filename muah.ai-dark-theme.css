@@ -2,7 +2,7 @@
 /* === Credits ===
 Created by  BreatFR
 Creatied on 2023/08/23
-Changelog   https://www.reddit.com/r/NomiAI/comments/15n7rgr/a_dark_theme_make_by_me/
+Changelog   https://www.reddit.com/r/MuahAI/comments/1603snq/a_dark_theme_make_by_me/
 Website     https://breat.fr
 facebook    https://www.facebook.com/breatfroff
 mastodon    https://mastodon.social/@breat_fr
@@ -15,6 +15,8 @@ X (twitter) https://x.com/breatfroff
 select,
 .swal2-container.swal2-center.swal2-grow-fullscreen.borderless-container.swal2-backdrop-show div,
 .contact div,
+.modal-box,
+h3.fadeIn,
 .screen__inner__NZe6j {
     background-color: rgb(9, 16, 29);
     color: white;
@@ -23,6 +25,10 @@ select,
 .form-messages.success {
     background-color: rgb(9, 16, 29);
     color: palegreen;
+}
+
+#account-bar {
+    color: white;
 }
 
 /* Heart background */
@@ -51,10 +57,14 @@ section.emoji-mart div > :last-child,
     font-size: 20px;
 }
 
-/* New color for link to be more visible */
-a,
+/* New color for links to be more visible */
+a {
+    color: #6ea8fe !important;
+}
+
+a:hover,
 .footer__options__8RNsw:hover {
-    color: skyblue;
+    color: #8bb9fe !important;
 }
 
 /* Change color of text in the bottom of chat and put him little bigger */
@@ -83,9 +93,16 @@ img {
     display: none;
 }
 
-/* Remove borders on input items */
+/* Remove borders on input items and make text visible when selected */
 input {
     border: 0px !important;
+    color: white !important;
+}
+
+input::selection,
+input::-moz-selection {
+    color:black;
+    background-color: skyblue;
 }
 
 /* Bigger avatars */
