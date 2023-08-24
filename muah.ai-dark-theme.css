@@ -160,4 +160,12 @@ div.message-bubble__puzVZ.message-bubble--nude__8qt2J {
 ::-webkit-scrollbar-thumb:hover {
   background: white !important;
 }
+
+@media (min-width: 930px) {
+    .swal2-container.swal2-center.swal2-backdrop-show > div {
+        border-radius: 10px;
+        height: 100%;
+        width: auto;
+    }
+}
 }
