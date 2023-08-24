@@ -9,7 +9,7 @@ More preview(s) here:
 - https://raw.githubusercontent.com/breatfr/Muah.AI-Dark-Theme/main/preview-settings.jpg
 
 Changelog
-- https://www.reddit.com/r/NomiAI/comments/15n7rgr/a_dark_theme_make_by_me/
+- [https://www.reddit.com/r/NomiAI/comments/15n7rgr/a_dark_theme_make_by_me/](https://www.reddit.com/r/MuahAI/comments/1603snq/a_dark_theme_make_by_me/)
 
 Some modifications other than the dark theme include in my theme:
 
