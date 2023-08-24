@@ -163,19 +163,9 @@ div.message-bubble__puzVZ.message-bubble--nude__8qt2J {
 }
 
 @media (min-width: 930px) {
-     {
-        min-width: 100%;
-    }
     .swal2-container.swal2-center.swal2-backdrop-show > div {
         border-radius: 10px;
-        height: 100%;
-        min-width: 536px !important;
-        max-width: auto !important;
-    }
-
-   .swal2-html-container > .swal-custom-image > img {
-        min-height: 720px !important;
-        min-width: 536px !important;
+        width: 69vmin;
     }
 }
 }
