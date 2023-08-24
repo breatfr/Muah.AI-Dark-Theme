@@ -16,6 +16,7 @@ select,
 .swal2-container.swal2-center.swal2-grow-fullscreen.borderless-container.swal2-backdrop-show div,
 .contact div,
 .modal-box,
+h2.swal2-title,
 h3.fadeIn,
 .screen__inner__NZe6j {
     background-color: rgb(9, 16, 29);
@@ -162,10 +163,19 @@ div.message-bubble__puzVZ.message-bubble--nude__8qt2J {
 }
 
 @media (min-width: 930px) {
+     {
+        min-width: 100%;
+    }
     .swal2-container.swal2-center.swal2-backdrop-show > div {
         border-radius: 10px;
         height: 100%;
-        width: auto;
+        min-width: 536px !important;
+        max-width: auto !important;
+    }
+
+   .swal2-html-container > .swal-custom-image > img {
+        min-height: 720px !important;
+        min-width: 536px !important;
     }
 }
 }
