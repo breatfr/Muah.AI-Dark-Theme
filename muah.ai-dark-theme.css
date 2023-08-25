@@ -53,6 +53,16 @@ section.emoji-mart div > :last-child,
     color: white;
 }
 
+/* Bigger emoji popup */
+section.emoji-mart {
+    width: 31% !important;
+}
+
+button.emoji-mart-emoji span{
+    min-height: 40px;
+    min-width: 40px;
+}
+
 /* Bigger and white text in bubbles */
 .message-list__bHgr6 div {
     color: white;
@@ -105,6 +115,11 @@ img {
 input {
     border: 0px !important;
     color: white !important;
+}
+
+/* Make text in emoji search popup visible */
+#emoji-mart-search-1 {
+    color: rgb(9, 16, 29) !important;
 }
 
 input::selection,
