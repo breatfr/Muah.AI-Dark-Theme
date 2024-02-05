@@ -1,8 +1,15 @@
-@-moz-document domain("muah.ai") {
+/* ==UserStyle==
+@name           Muah.AI : Dark-Theme
+@description    Put Muah.AI dark.
+@namespace      userstyles.world/user/breat
+@version        20230823
+@homepageURL    https://www.reddit.com/r/MuahAI/comments/1603snq/a_dark_theme_make_by_me/
+@author         BreatFR
+@license        GNU GPL v3 (https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
+@updateURL      https://raw.githubusercontent.com/breatfr/Muah.AI-Dark-Theme/master/muah.ai-dark-theme.user.css
+==/UserStyle== */
+
 /* === Credits ===
-Created by  BreatFR
-Creatied on 2023/08/23
-Changelog   https://www.reddit.com/r/MuahAI/comments/1603snq/a_dark_theme_make_by_me/
 Website     https://breat.fr
 facebook    https://www.facebook.com/breatfroff
 mastodon    https://mastodon.social/@breat_fr
@@ -10,6 +17,8 @@ telegram    https://t.me/+5ZLC2qntf6xmYmI0
 vk          https://vk.com/breatfroff
 X (twitter) https://x.com/breatfroff
 === Credits === */
+@-moz-document domain("muah.ai") {
+
 
 /* Background and text color */
 select,
