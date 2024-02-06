@@ -1,4 +1,4 @@
-# Muah.AI: Dark Theme
+# Muah.AI: Dark Theme [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/breatfr)
 Stylus dark theme for whole [Muah.AI](https://muah.ai) website.
 
 ## Preview
@@ -83,5 +83,3 @@ for each update you'll need copy/paste the code and remove this line.
 4. To update the theme do like on computer.
 
 5. Enjoy :)
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/breatfr)
